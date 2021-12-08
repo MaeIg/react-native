@@ -798,6 +798,12 @@ class TextExample extends React.Component<{...}> {
           <Text style={{textTransform: 'capitalize'}}>
             This text should be CAPITALIZED.
           </Text>
+          <Text>
+            Capitalize a date:
+            <Text style={{textTransform: 'capitalize'}}>
+              the 9th of November, 1998
+            </Text>
+          </Text>
           <Text style={{textTransform: 'capitalize'}}>
             Mixed: <Text style={{textTransform: 'uppercase'}}>uppercase </Text>
             <Text style={{textTransform: 'lowercase'}}>LoWeRcAsE </Text>
